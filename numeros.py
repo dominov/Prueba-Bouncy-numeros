@@ -12,20 +12,12 @@ def verificarNumero(numero):
                 return "="
             
         i +=1
-    
-    if (aumento):
-        return "+"
-    else:
-        return "-"
-    
+      
 
 
 n = 0
-
-maximo = 3000000
-
 bouncy = porcentaje = 0
-while n < maximo and porcentaje<99:
+while porcentaje<99:
     n+=1
     simbolo = verificarNumero(str(n))
 
